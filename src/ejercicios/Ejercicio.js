@@ -7,6 +7,7 @@ const Ejercicio = (props) => {
 
     return (
         <div>
+            <a href="/">Volver al inicio</a>
             <h1>{title}</h1>
             <p>{description}</p>
             {children}
