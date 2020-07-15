@@ -10,7 +10,8 @@ El primer paso es realizar un "fork" del proyecto en tu cuenta de github, para r
 ![Alt Fork button](https://www.linode.com/docs/development/version-control/how-to-install-git-and-clone-a-github-repository/github-fork.png)
 
 ### 2. Clonar el repositorio en tu máquina local
-Después, clona el repositorio de tu cuenta en tu máquina local con el siguiente comando ``git clone <url_del_repositorio>``.
+Después, clona el repositorio de tu cuenta en tu máquina local con el siguiente comando 
+```git clone <url_del_repositorio>```.
 
 ### 3. Instalar dependencias
 ```
