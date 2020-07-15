@@ -21,7 +21,7 @@ const exData = [
     },
     {
         title: "Ejercicio 5 - Uso de estados",
-        description: "Crea un nuevo estado dentro del componente <MyState> que incluya un estado llamado \"myText\" con el valor por defecto \"Hola Mundo\". Despliega el valor del estado dentro de la etiqueta <p>.",
+        description: "Crea un nuevo estado dentro del componente <MyState> llamado \"myText\" con el valor por defecto \"Hola Mundo\". Despliega el valor del estado dentro de la etiqueta <p>.",
         url: "ej-5"
     },
     {
@@ -36,7 +36,7 @@ const exData = [
     },
     {
         title: "Ejercicio 8 - Renderizado condicional",
-        description: "Modifica el componente <> para que cuando el contador sea número par se muestre el componente <Par> y, si el número es non, mostrar el componente <Impar>",
+        description: "Modifica el componente <Contador> para que cuando el estado \"counter\" sea número par se muestre el componente <Par> y, si el número es non, mostrar el componente <Impar>",
         url: "ej-8"
     },
     {

@@ -16,7 +16,7 @@ const Contador = () => {
 
     return (
         <div className="alert alert-primary">
-            <p>Haz dado {counter} clicks</p>
+            <p>Has dado {counter} clicks</p>
             <button onClick={() => setCounter(counter + 1)}>suma 1</button>
             <Par />
             <Impar />
