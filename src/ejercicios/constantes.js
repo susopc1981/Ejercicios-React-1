@@ -21,7 +21,7 @@ const exData = [
     },
     {
         title: "Ejercicio 5 - Uso de estados",
-        description: "Crea un nuevo estado dentro del componente <MyState> que incluya un estado llamado \"myText\" con el valor por defecto \"Hola Mundo\". Despliega el valor del estado dentro de la etiqueta <p>.",
+        description: "Crea un nuevo estado dentro del componente <MyState> llamado \"myText\" con el valor por defecto \"Hola Mundo\". Despliega el valor del estado dentro de la etiqueta <p>.",
         url: "ej-5"
     },
     {
