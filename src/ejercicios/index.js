@@ -5,3 +5,4 @@ export { default as Ejercicio4 } from "./ej-4";
 export { default as Ejercicio5 } from "./ej-5";
 export { default as Ejercicio6 } from "./ej-6";
 export { default as Ejercicio7 } from "./ej-7";
+export { default as Ejercicio8 } from "./ej-8";
