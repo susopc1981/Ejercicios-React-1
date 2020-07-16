@@ -93,6 +93,11 @@ const exData = [
         title: "Ejercicio 11 - Async/await consultar mi ip con renderizado condicional",
         description: "Aplicar la solución del Ejercicio 9 para que cuando carguemos la página se muestre Cargando... hasta que recuperemos la ip con el api.",
         url: "ej-11"
+    },
+    {
+        title: "Ejercicio 12 - Async/await sobre botón",
+        description: "Al hacer clic sobre el botón, llamar a la API, recuperar el texto de la propiedad 'value' y mostrarlo por pantalla. API: https://api.chucknorris.io/jokes/random",
+        url: "ej-12"
     }
 ];
 
