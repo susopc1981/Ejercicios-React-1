@@ -1,10 +1,10 @@
-import React from 'react';
-import MyState from './MyState';
+import React from "react";
+import MyState from "./MyState";
 
-const Ejercicio5c = () => {
-    return (
-        <MyState />
-    );
-};
+class Ejercicio5c extends React.Component {
+  render() {
+    return <MyState />;
+  }
+}
 
 export default Ejercicio5c;

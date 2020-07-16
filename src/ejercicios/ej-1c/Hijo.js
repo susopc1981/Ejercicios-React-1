@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-// HOLA 2
-
-const Hijo = (props) => {
+class Hijo extends React.Component {
+  render() {
     return (
-        <div className="alert alert-success">
-            <h4>Hijo</h4>
-            <h1></h1>
-        </div>
+      <div className="alert alert-success">
+        <h4>Hijo</h4>
+        <h1>{this.props.data}</h1>
+      </div>
     );
-};
+  }
+}
 
 export default Hijo;

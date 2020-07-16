@@ -1,10 +1,8 @@
-import React from 'react';
-import Padre from './Padre';
+import React from "react";
+import Padre from "./Padre";
 
 const Ejercicio4 = () => {
-    return (
-        <Padre />
-    );
+  return <Padre />;
 };
 
 export default Ejercicio4;

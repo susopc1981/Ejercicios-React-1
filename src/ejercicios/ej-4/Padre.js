@@ -1,6 +1,5 @@
 import React from "react";
 import Hijo from "./Hijo";
-import lukesMessage from "./Hijo";
 
 const Padre = () => {
   const printCustomText = (text) => {

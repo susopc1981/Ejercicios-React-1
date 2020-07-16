@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 /*
 
@@ -8,15 +8,25 @@ https://es.reactjs.org/docs/handling-events.html
 
 */
 
-const Hijo = (props) => {
-    const lukesMessage = "NOOOOOO!";
-    
+class Hijo extends React.Component {
+  constructor() {
+    super();
+    this.lukeMessage = "Nooooooooooooo";
+  }
+
+  render() {
     return (
-        <div className="alert alert-success">
-            <h4>Hijo</h4>
-            <button className="btn btn-info">¡Dar click aquí!</button>
-        </div>
+      <div className="alert alert-success">
+        <h4>Hijo</h4>
+        <button
+          className="btn btn-info"
+          onClick={() => this.props.data(this.lukeMessage)}
+        >
+          ¡Dar click aquí!
+        </button>
+      </div>
     );
-};
+  }
+}
 
 export default Hijo;
