@@ -6,7 +6,7 @@ class MyClass extends React.Component {
         this.state = {ipAddress: '...'};
     }
 
-    // Intersante lectura relacionada con el manejo de errores con await
+    // Intersante lectura relacionada con el manejo de errores con await https://javascript.info/async-await#error-handling
 
     render() {
         return (
