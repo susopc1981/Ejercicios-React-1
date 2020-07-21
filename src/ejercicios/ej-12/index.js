@@ -1,10 +1,10 @@
-import React from 'react';
-import MyClass from './MyClass';
+import React from "react";
+import MyClass from "./MyClass";
 
-const Ejercicio12 = () => {
-    return (
-        <MyClass />
-    );
-};
+class Ejercicio12 extends React.Component {
+  render() {
+    return <MyClass />;
+  }
+}
 
 export default Ejercicio12;
