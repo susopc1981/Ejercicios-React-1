@@ -6,8 +6,12 @@ async function getDataUsers() {
   return data;
 }
 
-async function getDataPosts() {
-  const response = await fetch(DATA_POST);
+async function getDataPosts(id) {
+  let apiUrl = DATA_POST;
+  if (id) {
+    apiUrl = DATA_POST + "?userId=" + id;
+  }
+  const response = await fetch(apiUrl);
   const data = await response.json();
   return data;
 }
